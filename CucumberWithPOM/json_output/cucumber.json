@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Successfull login",
+        "description": "",
+        "id": "regence-application-test;validate-successfull-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28099566400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens the browser",
+            "match": {
+              "location": "RegenceLoginStepDefinition.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7385800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {
+              "location": "RegenceLoginStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10990144300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "RegenceLoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29401000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on Dashboard",
+            "match": {
+              "location": "RegenceLoginStepDefinition.user_lands_on_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 632648800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user close the browser",
+            "match": {
+              "location": "RegenceLoginStepDefinition.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Regence application test",
+    "description": "",
+    "id": "regence-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/iliaz/Documents/workspace-spring-tool-suite-4-4.6.0.RELEASE/CucumberWithPOM/src/main/java/com/regence/features/Regence.feature"
+  }
+]

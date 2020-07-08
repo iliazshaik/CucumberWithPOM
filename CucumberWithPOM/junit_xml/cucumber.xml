@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.759146">
+<testcase classname="Regence application test" name="Validate Successfull login" time="39.759146">
+<system-out><![CDATA[Given user opens the browser................................................passed
+Then user is on homepage....................................................passed
+Then user enters username and password......................................passed
+Then user lands on Dashboard................................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
